@@ -1,0 +1,26 @@
+<!--pages/detail/index.wxml-->
+<!-- <text>pages/detail/index.wxml</text> -->
+<view class='detail' wx:for='{{detailList}}' wx:key='{{index}}'>
+  <view class='det'>中文名:{{item.name}}</view>
+  <view class='det'>外文名:{{item.enlinsh}}</view>
+  <view class='det'>别名:{{item.bieming}}</view>
+  <view class='det'>国籍:{{item.guji}}</view>
+  <view class='det'>民族:{{item.mingzu}}</view>
+  <view class='det'>出生地:{{item.chushengdi}}</view>
+</view>
+
+<view class='cai'>※精彩瞬间※</view>
+
+<!-- <view>
+  <image src='http://img1.gtimg.com/chinanba/pics/hv1/70/148/2310/150245560.jpg'></image>
+  <view>※大战将至,杜兰特随队前往多伦多</view>
+</view> -->
+
+<view wx:for="{{neirong}}" wx:key='{{index}}' class='nei'>
+  <view class='image'>
+    <image src='{{item.img}}'></image>
+  </view>
+  <view class='dd'>
+    <view class='xin'>{{item.title}}</view>
+  </view>
+</view>

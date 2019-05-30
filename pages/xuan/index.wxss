@@ -1,0 +1,161 @@
+/* pages/xuan/index.wxss */
+
+.xuan {
+  width: 100%;
+  height: 500rpx;
+  display: flex;
+  position: relative;
+}
+
+.font {
+  font-size: 50rpx;
+  padding-left: 60rpx;
+  padding-top: 180rpx;
+  color: #00a0e9;
+}
+
+.size {
+  font-size: 40rpx;
+}
+
+.img {
+  width: 268rpx;
+  height: 402rpx;
+  position: absolute;
+  left: 430rpx;
+  top: 55rpx;
+}
+
+.ke {
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+
+.ant {
+  margin-top: 15rpx;
+  font-size: 32rpx;
+}
+
+.jie {
+  width: 100%;
+  height: 210rpx;
+}
+swiper-item{
+  width: 100%;
+}
+swiper-item image{
+  width: 100%;
+}
+.poj {
+  width: 100%;
+  height: 200rpx;
+  margin-top: 8rpx;
+}
+
+.jian {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #ccc;
+  margin-top: 40rpx;
+}
+
+.wo {
+  width: 250rpx;
+  height: 80rpx;
+  text-align: center;
+  background: #00a0e9;
+}
+
+.chi {
+  width: 100%;
+  height: 300rpx;
+  display: flex;
+}
+
+.ju {
+  width: 225rpx;
+  height: 175rpx;
+  padding-left: 45rpx;
+  padding-top: 35rpx;
+}
+
+.you {
+  padding-top: 95rpx;
+  padding-left: 20rpx;
+  font-size: 35rpx;
+  color: #00a0e9;
+}
+
+.bu {
+  margin-top: 245rpx;
+  padding-left: 25rpx;
+  display: flex;
+}
+
+.shuo {
+  width: 10rpx;
+  height: 50rpx;
+  background: #00a0e9;
+}
+
+.div {
+  padding-left: 15rpx;
+  font-weight: 300rpx;
+}
+
+.zai {
+  margin-top: 25rpx;
+ width:100%;
+/* height:100%; */ 
+
+}
+
+.bei {
+  margin-top: 15rpx;
+  text-indent: 2em;
+  font-size: 35rpx;
+}
+
+.div2 {
+  padding-top: 20rpx;
+  font-weight: 300rpx;
+  color: #00a0e9;
+}
+
+.chen {
+  margin-top: 15rpx;
+  width: 100%;
+}
+
+/* .liao{
+  width: 100%;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+} */
+
+.section {
+  width: 100%;
+  height: 80rpx;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 80rpx;
+  text-align: center;
+  background: linear-gradient(to right, red, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: blink 2s linear infinite;
+  -webkit-animation: blink 2s linear infinite;
+  -moz-animation: blink 2s linear infinite;
+  -ms-animation: blink 2s linear infinite;
+  -o-animation: blink 2s linear infinite;
+}
+
+.kan{
+  color: #000;
+  font-size: 25rpx;
+}
+.padns{
+  padding: 10rpx;
+}

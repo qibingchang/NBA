@@ -1,0 +1,3 @@
+<view class='btn'>
+    <view><button class='botn' bindtap='chage'>进入到K ~ B世界吧！</button></view>
+</view>

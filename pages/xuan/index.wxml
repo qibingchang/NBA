@@ -1,0 +1,68 @@
+<!--pages/xuan/index.wxml-->
+<!-- <text>pages/xuan/index.wxml</text> -->
+<swiper indicator-dots='{{true}}' autoplay='{{true}}' interval='{{5000}}' duration='{{200}}'>
+  <block wx:for='{{images}}' wx:key='{{index}}'>
+    <swiper-item>
+      <image src='{{item}}'></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='xuan'>
+  <view class='font' bindtap='detail'>
+  <view class='kan'>点击这里查看↓</view>
+    科比·布莱恩特
+    <view class='size'>(美国篮球运动员)</view>
+  </view>
+  <image class='img' src='../../images/2.jpg'></image>
+</view>
+<view class='jie'>
+  <image class='poj' bindtap='understand' src='https://bkssl.bdimg.com/cms/static/kebi.png'></image>
+</view>
+
+<view class='jian'>
+  <view class='wo' wx:for='{{lists}}' wx:key='{{index}}'>{{item.wo}}</view>
+  <view class='chi'>
+    <image class='ju' src='https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/Whf%3D180%2C140%2C50/sign=9222abf806d162d9a5bb311120e799c0/0dd7912397dda1443d1e898ebeb7d0a20cf486f3.jpg'></image>
+    <view class='you' wx:for='{{lists}}' wx:key='{{index}}'>
+      {{item.you}}
+    </view>
+  </view>
+</view>
+
+<view class='bu'>
+  <view class='shuo'></view>
+  <view class='div' wx:for='{{lists}}' wx:key='{{index}}'>{{item.div}}</view>
+</view>
+
+<view class='padns'>
+  <image class='zai' src='https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D480/sign=c6677012be12c8fcb4f3f7c5cc0292b4/83025aafa40f4bfb4f019c66044f78f0f736182a.jpg'></image>
+  <view class='bei' wx:for='{{lists}}' wx:key='{{index}}'>
+   {{item.bei}}
+  </view>
+  <view class='div2' wx:for='{{lists}}' wx:key='{{index}}'>{{item.div2}}</view>
+  <view class='bei' wx:for='{{lists}}' wx:key='{{index}}'>
+   {{item.bei1}}
+  </view>
+  <view class='div2' wx:for='{{lists}}' wx:key='{{index}}'>{{item.div3}}</view>
+  <view class='bei' wx:for='{{lists}}' wx:key='{{index}}'>
+   {{item.bei2}}
+  </view>
+  <view class='div2' wx:for='{{lists}}' wx:key='{{index}}'>{{item.div4}}</view>
+  <image class='chen' src='https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=0b554d171038534398c28f73f27adb1b/738b4710b912c8fcfdb148b6fc039245d688210e.jpg'></image>
+    <!-- <view class='liao'>点击了解科比更多</view> -->
+  <!-- <view class="section">
+  <view class="section__title">点击了解科比更多</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      当前选择：{{array[index]}}
+    </view>
+  </picker>
+</view> -->
+</view>
+
+ <!-- <view class='ke'>科比·布莱恩特（Kobe Bryant)</view>
+    <view class='ke'>1978年8月23日出生于美国宾夕</view>
+    <view class='ke'>法尼亚州费城，前美国职业篮球</view>
+    <view class='ke'>（锋卫摇摆人）绰号“黑曼巴”</view>
+    <view class='ke'>/“小飞侠”。</view>
+    <view class='ant'>1996年第1轮第13位被夏洛特黄蜂队选中，后来被交易到湖人队。整个NBA生涯（1996年-2016年）全部效力于NBA洛杉矶湖人队，是前NBA球员乔·布莱恩特的儿子</view> -->

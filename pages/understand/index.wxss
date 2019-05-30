@@ -1,0 +1,100 @@
+/* pages/understand/index.wxss */
+
+.unde {
+  width: 100%;
+  height: 100%;
+}
+
+.xing {
+  font-size: 45rpx;
+  padding-left: 15rpx;
+}
+swiper{
+  width: 100%;
+  overflow: hidden;
+}
+swiper image{
+  width: 100%;
+}
+.ri {
+  font-size: 30rpx;
+  padding-top: 15rpx;
+  padding-left: 15rpx;
+  text-indent: 2em;
+}
+
+.center {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  margin-top: 30rpx;
+  border: 1rpx solid #ccc;
+  background: #032f4f;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.center text {
+  height: 100%;
+  color: #eee;
+  line-height: 100rpx;
+}
+
+.add {
+  color: red;
+  border-bottom: red solid 2rpx;
+}
+
+.de {
+  width: 100%;
+  height: 250rpx;
+  display: flex;
+  position: relative;
+  border: 1rpx solid #ccc;
+}
+
+.de image {
+  width: 150rpx;
+  height: 120rpx;
+  margin-top: 60rpx;
+  border-radius: 50%;
+}
+
+.dd {
+  margin-top: 60rpx;
+  padding-left: 40rpx;
+}
+
+.fen {
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 50%;
+  left: 650rpx;
+  text-align: center;
+  top: 80rpx;
+}
+
+.nei {
+  width: 100%;
+  height: 120rpx;
+  display: flex;
+  padding: 30rpx;
+}
+
+.image image {
+  width: 200rpx;
+  height: 150rpx;
+}
+
+.dd {
+  padding-left: 35rpx;
+}
+
+.xin {
+  width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

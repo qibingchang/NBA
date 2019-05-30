@@ -1,0 +1,71 @@
+<!--pages/understand/index.wxml-->
+<!-- <text>pages/understand/index.wxml</text> -->
+
+<view class='unde'>
+  <view class='xing' wx:for='{{under}}' wx:key='{{index}}'>{{item.name}}</view>
+  <view class='ri' wx:for='{{under}}' wx:key='{{index}}'>{{item.title}}</view>
+</view>
+
+<view>
+  <view class='center'>
+    <text bindtap='clcikbtn' class='{{isShow?"color":"add"}}'>得分</text>
+    <text bindtap='clcikmajor' class='{{isShow?"add":"color"}}'>篮板</text>
+    <text>助攻</text>
+    <text>盖帽</text>
+  </view>
+  <view>
+    <view wx:for="{{imgage}}" wx:key='{{index}}' class='de' hidden='{{isShow}}'>
+      <view class='image'>
+        <image src='{{item.img}}'></image>
+      </view>
+      <view class='dd'>
+        <view class='xin'>{{item.title}}</view>
+        <view class='wei'>{{item.zhiwei}}</view>
+        <view class='qiu'>{{item.qiuyihao}}</view>
+      </view>
+      <view class='fen'>{{item.fen}}</view>
+    </view>
+  </view>
+  <view wx:for="{{lanban}}" wx:key='{{index}}' class='de' hidden='{{!isShow}}'>
+    <view class='image'>
+      <image src='{{item.img}}'></image>
+    </view>
+    <view class='dd'>
+      <view>{{item.title}}</view>
+      <view>{{item.zhiwei}}</view>
+      <view>{{item.qiuyihao}}</view>
+    </view>
+    <view class='fen'>{{item.fen}}</view>
+  </view>
+</view>
+<swiper indicator-dots='{{true}}' autoplay='{{true}}' interval='{{3000}}' duration='{{200}}'>
+  <block wx:for='{{lunbo}}' wx:key='{{index}}'>
+    <swiper-item>
+      <image src='{{item.img}}'></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view wx:for="{{neirong}}" wx:key='{{index}}' class='nei'>
+  <view class='image'>
+    <image src='{{item.img}}'></image>
+  </view>
+  <view class='dd'>
+    <view class='xin'>{{item.title}}</view>
+  </view>
+</view>
+<!-- </view> -->
+
+
+<!-- <view class='xin'>{{item.title}}</view>
+        <view class='wei'>{{item.zhiwei}}</view>
+        <view class='qiu'>{{item.qiuyihao}}</view> -->
+
+
+
+
+<!-- </view> -->
+
+<!-- <view>{{item. playerProfile.country}}</view>
+  <view>{{item. playerProfile.weight}}</view>
+  <view>{{item. playerProfile.position}}</view> -->
